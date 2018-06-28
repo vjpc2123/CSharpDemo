@@ -11,3 +11,4 @@ c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.pdb
 C:\Users\Vjpc\source\repos\FrmDemo\FrmDemo\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 C:\Users\Vjpc\source\repos\FrmDemo\FrmDemo\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 C:\Users\Vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.csproj.CopyComplete
+C:\Users\Vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.frmPrincipalMenu.resources

@@ -54,14 +54,14 @@ namespace FrmDemo
             {
                 txtUsuario.Text = "";
                 txtUsuario.ForeColor = Color.White;
-                txtUsuario.BorderStyle = BorderStyle.Fixed3D;
+                
                 
             }
             else if(parametro.Text == "Ingresar Clave")
             {
                 txtClave.Text = "";
                 txtClave.ForeColor = Color.White;
-                txtClave.BorderStyle = BorderStyle.Fixed3D;
+                
             }
         }
  
@@ -83,7 +83,7 @@ namespace FrmDemo
             {
                 txtClave.Text = "Ingresar Clave";
                 txtClave.ForeColor = Color.FromArgb(0, 130, 114);
-                txtClave.BorderStyle = BorderStyle.None;
+          
             }
         }
 
@@ -93,7 +93,7 @@ namespace FrmDemo
             {
                 txtUsuario.Text = "Ingresar Usuario";
                 txtUsuario.ForeColor = Color.FromArgb(0, 130, 114);
-                txtUsuario.BorderStyle = BorderStyle.None;
+              
             }
         }
 
@@ -107,6 +107,19 @@ namespace FrmDemo
         {
             this.WindowState = FormWindowState.Minimized;
 
+        }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+       
+            
+        }
+
+        private void btnIngresar_Click_1(object sender, EventArgs e)
+        {
+            var frmPrincipalMenu = new frmPrincipalMenu();
+            this.Hide();
+            frmPrincipalMenu.ShowDialog();
         }
     }
 }

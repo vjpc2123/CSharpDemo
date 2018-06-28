@@ -54,10 +54,19 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPrincipalMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipalMenu.Designer.cs">
+      <DependentUpon>frmPrincipalMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipalMenu.resx">
+      <DependentUpon>frmPrincipalMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +102,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Grim Reaper_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window_25px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximize Window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize Window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restore Window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Business_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sell_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Client Management_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deliver Food_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buy_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maintenance_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maintenance_27px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_27px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deathstroke_96px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
