@@ -1,0 +1,13 @@
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\bin\Debug\FrmDemo.exe.config
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\bin\Debug\FrmDemo.exe
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\bin\Debug\FrmDemo.pdb
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.csprojAssemblyReference.cache
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.frmLogin.resources
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.Properties.Resources.resources
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.csproj.GenerateResource.cache
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.csproj.CoreCompileInputs.cache
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.exe
+c:\users\vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.pdb
+C:\Users\Vjpc\source\repos\FrmDemo\FrmDemo\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Vjpc\source\repos\FrmDemo\FrmDemo\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Vjpc\source\repos\FrmDemo\FrmDemo\obj\Debug\FrmDemo.csproj.CopyComplete
