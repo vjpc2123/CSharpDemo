@@ -185,9 +185,28 @@ namespace FrmDemo
             
         }
 
+        private void btnVehiculo_Click(object sender, EventArgs e)
+        {
+            frmVehiculo Frm = new frmVehiculo();
+            ExecuteFormIntoPanel(Frm);
+        }
+
         private void pictureBox3_Click(object sender, EventArgs e)
         {
          
+        }
+
+        private void ExecuteFormIntoPanel(object FormSon)
+        {
+            if (this.panelFormularios.Controls.Count > 0)
+                this.panelFormularios.Controls.RemoveAt(0);
+            Form fh = FormSon as Form;
+            fh.TopLevel = false;
+            fh.FormBorderStyle = FormBorderStyle.None;
+            fh.Dock = DockStyle.Fill;
+            this.panelFormularios.Controls.Add(fh);
+            this.panelFormularios.Tag = fh;
+            fh.Show();
         }
     }
 }

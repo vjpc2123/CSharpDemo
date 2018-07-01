@@ -63,6 +63,16 @@ namespace FrmDemo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Add_Property_25px {
+            get {
+                object obj = ResourceManager.GetObject("Add Property_25px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Business_25px {
             get {
                 object obj = ResourceManager.GetObject("Business_25px", resourceCulture);
@@ -123,6 +133,16 @@ namespace FrmDemo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Close_Window_25px1 {
+            get {
+                object obj = ResourceManager.GetObject("Close Window_25px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Close_Window_25px2 {
             get {
                 object obj = ResourceManager.GetObject("Close Window_25px2", resourceCulture);
@@ -143,9 +163,49 @@ namespace FrmDemo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Delete_Database_25px {
+            get {
+                object obj = ResourceManager.GetObject("Delete Database_25px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Delete_Database_25px1 {
+            get {
+                object obj = ResourceManager.GetObject("Delete Database_25px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Deliver_Food_30px {
             get {
                 object obj = ResourceManager.GetObject("Deliver Food_30px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Edit_Property_25px {
+            get {
+                object obj = ResourceManager.GetObject("Edit Property_25px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Edit_Property_25px1 {
+            get {
+                object obj = ResourceManager.GetObject("Edit Property_25px1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +316,16 @@ namespace FrmDemo.Properties {
         internal static System.Drawing.Bitmap Shutdown_27px {
             get {
                 object obj = ResourceManager.GetObject("Shutdown_27px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Trash_25px {
+            get {
+                object obj = ResourceManager.GetObject("Trash_25px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -60,6 +60,12 @@
     <Compile Include="frmPrincipalMenu.Designer.cs">
       <DependentUpon>frmPrincipalMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVehiculo.Designer.cs">
+      <DependentUpon>frmVehiculo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmLogin.resx">
@@ -67,6 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipalMenu.resx">
       <DependentUpon>frmPrincipalMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVehiculo.resx">
+      <DependentUpon>frmVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -150,6 +159,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Deathstroke_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete Database_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete Database_25px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Property_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Property_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trash_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit Property_25px1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
