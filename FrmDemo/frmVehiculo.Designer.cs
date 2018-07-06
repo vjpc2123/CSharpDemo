@@ -79,7 +79,7 @@
             // btnNew
             // 
             this.btnNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnNew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(194)))), ((int)(((byte)(77)))));
             this.btnNew.FlatAppearance.BorderSize = 0;
             this.btnNew.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -103,9 +103,9 @@
             this.btnBorrarFilas.ForeColor = System.Drawing.Color.White;
             this.btnBorrarFilas.Image = global::FrmDemo.Properties.Resources.Trash_25px;
             this.btnBorrarFilas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBorrarFilas.Location = new System.Drawing.Point(0, 451);
+            this.btnBorrarFilas.Location = new System.Drawing.Point(1, 452);
             this.btnBorrarFilas.Name = "btnBorrarFilas";
-            this.btnBorrarFilas.Size = new System.Drawing.Size(256, 44);
+            this.btnBorrarFilas.Size = new System.Drawing.Size(256, 43);
             this.btnBorrarFilas.TabIndex = 9;
             this.btnBorrarFilas.Text = "Borrar Registro Seleccionado";
             this.btnBorrarFilas.UseVisualStyleBackColor = false;
