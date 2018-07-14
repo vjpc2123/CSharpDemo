@@ -28,36 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.dtgvVehiculo = new System.Windows.Forms.DataGridView();
+            this.panelHeader = new System.Windows.Forms.Panel();
+            this.tcVehiculo = new System.Windows.Forms.TabControl();
+            this.tpLista = new System.Windows.Forms.TabPage();
+            this.tpDetalle = new System.Windows.Forms.TabPage();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnBorrarFilas = new System.Windows.Forms.Button();
+            this.dtgvVehiculo = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panelHeader.SuspendLayout();
+            this.tcVehiculo.SuspendLayout();
+            this.tpLista.SuspendLayout();
+            this.tpDetalle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvVehiculo)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // panelHeader
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 20);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Vehiculos.";
+            this.panelHeader.Controls.Add(this.label1);
+            this.panelHeader.Controls.Add(this.btnCerrar);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(0, 0);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(764, 30);
+            this.panelHeader.TabIndex = 0;
             // 
-            // dtgvVehiculo
+            // tcVehiculo
             // 
-            this.dtgvVehiculo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtgvVehiculo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvVehiculo.Location = new System.Drawing.Point(0, 67);
-            this.dtgvVehiculo.Name = "dtgvVehiculo";
-            this.dtgvVehiculo.Size = new System.Drawing.Size(764, 385);
-            this.dtgvVehiculo.TabIndex = 8;
-            this.dtgvVehiculo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvVehiculo_CellContentClick);
+            this.tcVehiculo.Controls.Add(this.tpLista);
+            this.tcVehiculo.Controls.Add(this.tpDetalle);
+            this.tcVehiculo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tcVehiculo.Location = new System.Drawing.Point(0, 30);
+            this.tcVehiculo.Name = "tcVehiculo";
+            this.tcVehiculo.SelectedIndex = 0;
+            this.tcVehiculo.Size = new System.Drawing.Size(764, 465);
+            this.tcVehiculo.TabIndex = 1;
+            // 
+            // tpLista
+            // 
+            this.tpLista.Controls.Add(this.btnEditar);
+            this.tpLista.Controls.Add(this.btnNew);
+            this.tpLista.Controls.Add(this.btnBorrarFilas);
+            this.tpLista.Controls.Add(this.dtgvVehiculo);
+            this.tpLista.Location = new System.Drawing.Point(4, 22);
+            this.tpLista.Name = "tpLista";
+            this.tpLista.Padding = new System.Windows.Forms.Padding(3);
+            this.tpLista.Size = new System.Drawing.Size(756, 439);
+            this.tpLista.TabIndex = 0;
+            this.tpLista.Text = "Lista";
+            this.tpLista.UseVisualStyleBackColor = true;
+            // 
+            // tpDetalle
+            // 
+            this.tpDetalle.AutoScroll = true;
+            this.tpDetalle.Controls.Add(this.groupBox1);
+            this.tpDetalle.Location = new System.Drawing.Point(4, 22);
+            this.tpDetalle.Name = "tpDetalle";
+            this.tpDetalle.Padding = new System.Windows.Forms.Padding(3);
+            this.tpDetalle.Size = new System.Drawing.Size(756, 439);
+            this.tpDetalle.TabIndex = 1;
+            this.tpDetalle.Text = "Detalle";
+            this.tpDetalle.UseVisualStyleBackColor = true;
             // 
             // btnEditar
             // 
@@ -69,10 +103,10 @@
             this.btnEditar.ForeColor = System.Drawing.Color.White;
             this.btnEditar.Image = global::FrmDemo.Properties.Resources.Edit_Property_25px1;
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEditar.Location = new System.Drawing.Point(621, 27);
+            this.btnEditar.Location = new System.Drawing.Point(648, 3);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(108, 34);
-            this.btnEditar.TabIndex = 11;
+            this.btnEditar.TabIndex = 17;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
             // 
@@ -86,10 +120,10 @@
             this.btnNew.ForeColor = System.Drawing.Color.White;
             this.btnNew.Image = global::FrmDemo.Properties.Resources.Add_Property_25px;
             this.btnNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNew.Location = new System.Drawing.Point(507, 27);
+            this.btnNew.Location = new System.Drawing.Point(527, 3);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(108, 34);
-            this.btnNew.TabIndex = 10;
+            this.btnNew.TabIndex = 16;
             this.btnNew.Text = "Nuevo";
             this.btnNew.UseVisualStyleBackColor = false;
             // 
@@ -103,12 +137,33 @@
             this.btnBorrarFilas.ForeColor = System.Drawing.Color.White;
             this.btnBorrarFilas.Image = global::FrmDemo.Properties.Resources.Trash_25px;
             this.btnBorrarFilas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBorrarFilas.Location = new System.Drawing.Point(1, 452);
+            this.btnBorrarFilas.Location = new System.Drawing.Point(0, 396);
             this.btnBorrarFilas.Name = "btnBorrarFilas";
             this.btnBorrarFilas.Size = new System.Drawing.Size(256, 43);
-            this.btnBorrarFilas.TabIndex = 9;
+            this.btnBorrarFilas.TabIndex = 15;
             this.btnBorrarFilas.Text = "Borrar Registro Seleccionado";
             this.btnBorrarFilas.UseVisualStyleBackColor = false;
+            // 
+            // dtgvVehiculo
+            // 
+            this.dtgvVehiculo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtgvVehiculo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvVehiculo.Location = new System.Drawing.Point(-4, 40);
+            this.dtgvVehiculo.Name = "dtgvVehiculo";
+            this.dtgvVehiculo.Size = new System.Drawing.Size(764, 354);
+            this.dtgvVehiculo.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 20);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Vehiculos.";
             // 
             // btnCerrar
             // 
@@ -119,13 +174,22 @@
             this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Image = global::FrmDemo.Properties.Resources.Close_Window_25px1;
-            this.btnCerrar.Location = new System.Drawing.Point(734, 0);
+            this.btnCerrar.Location = new System.Drawing.Point(736, 0);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(30, 30);
-            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.Size = new System.Drawing.Size(28, 30);
+            this.btnCerrar.TabIndex = 12;
             this.btnCerrar.UseVisualStyleBackColor = true;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox1.Location = new System.Drawing.Point(3, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(747, 302);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "p";
             // 
             // frmVehiculo
             // 
@@ -133,28 +197,34 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(764, 495);
-            this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnNew);
-            this.Controls.Add(this.btnBorrarFilas);
-            this.Controls.Add(this.dtgvVehiculo);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnCerrar);
+            this.Controls.Add(this.tcVehiculo);
+            this.Controls.Add(this.panelHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "frmVehiculo";
             this.Text = "Formulario Vehiculo";
+            this.panelHeader.ResumeLayout(false);
+            this.panelHeader.PerformLayout();
+            this.tcVehiculo.ResumeLayout(false);
+            this.tpLista.ResumeLayout(false);
+            this.tpDetalle.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvVehiculo)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnCerrar;
+
+        private System.Windows.Forms.Panel panelHeader;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dtgvVehiculo;
-        private System.Windows.Forms.Button btnBorrarFilas;
-        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.TabControl tcVehiculo;
+        private System.Windows.Forms.TabPage tpLista;
         private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Button btnBorrarFilas;
+        private System.Windows.Forms.DataGridView dtgvVehiculo;
+        private System.Windows.Forms.TabPage tpDetalle;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

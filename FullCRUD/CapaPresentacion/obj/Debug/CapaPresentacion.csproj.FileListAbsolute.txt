@@ -1,0 +1,15 @@
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\bin\Debug\CapaNegocios.dll
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\bin\Debug\CapaDatos.dll
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\bin\Debug\CapaNegocios.pdb
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\bin\Debug\CapaDatos.pdb
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.Form1.resources
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+c:\users\vjpc\source\repos\FullCRUD\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

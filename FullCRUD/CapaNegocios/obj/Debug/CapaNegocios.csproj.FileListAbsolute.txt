@@ -1,0 +1,9 @@
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\bin\Debug\CapaNegocios.dll
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\bin\Debug\CapaNegocios.pdb
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\bin\Debug\CapaDatos.dll
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\bin\Debug\CapaDatos.pdb
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\obj\Debug\CapaNegocios.csprojAssemblyReference.cache
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\obj\Debug\CapaNegocios.dll
+c:\users\vjpc\source\repos\FullCRUD\CapaNegocios\obj\Debug\CapaNegocios.pdb
