@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
             this.tcVehiculo = new System.Windows.Forms.TabControl();
             this.tpLista = new System.Windows.Forms.TabPage();
-            this.tpDetalle = new System.Windows.Forms.TabPage();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnBorrarFilas = new System.Windows.Forms.Button();
             this.dtgvVehiculo = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnCerrar = new System.Windows.Forms.Button();
+            this.tpDetalle = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panelHeader.SuspendLayout();
             this.tcVehiculo.SuspendLayout();
             this.tpLista.SuspendLayout();
-            this.tpDetalle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvVehiculo)).BeginInit();
+            this.tpDetalle.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelHeader
@@ -55,6 +55,33 @@
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(764, 30);
             this.panelHeader.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(92, 20);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Vehiculos.";
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrar.FlatAppearance.BorderSize = 0;
+            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.Image = global::FrmDemo.Properties.Resources.Close_Window_25px1;
+            this.btnCerrar.Location = new System.Drawing.Point(736, 0);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(28, 30);
+            this.btnCerrar.TabIndex = 12;
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click_1);
             // 
             // tcVehiculo
             // 
@@ -80,18 +107,6 @@
             this.tpLista.TabIndex = 0;
             this.tpLista.Text = "Lista";
             this.tpLista.UseVisualStyleBackColor = true;
-            // 
-            // tpDetalle
-            // 
-            this.tpDetalle.AutoScroll = true;
-            this.tpDetalle.Controls.Add(this.groupBox1);
-            this.tpDetalle.Location = new System.Drawing.Point(4, 22);
-            this.tpDetalle.Name = "tpDetalle";
-            this.tpDetalle.Padding = new System.Windows.Forms.Padding(3);
-            this.tpDetalle.Size = new System.Drawing.Size(756, 439);
-            this.tpDetalle.TabIndex = 1;
-            this.tpDetalle.Text = "Detalle";
-            this.tpDetalle.UseVisualStyleBackColor = true;
             // 
             // btnEditar
             // 
@@ -155,31 +170,17 @@
             this.dtgvVehiculo.Size = new System.Drawing.Size(764, 354);
             this.dtgvVehiculo.TabIndex = 14;
             // 
-            // label1
+            // tpDetalle
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 20);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Vehiculos.";
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrar.FlatAppearance.BorderSize = 0;
-            this.btnCerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Image = global::FrmDemo.Properties.Resources.Close_Window_25px1;
-            this.btnCerrar.Location = new System.Drawing.Point(736, 0);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(28, 30);
-            this.btnCerrar.TabIndex = 12;
-            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.tpDetalle.AutoScroll = true;
+            this.tpDetalle.Controls.Add(this.groupBox1);
+            this.tpDetalle.Location = new System.Drawing.Point(4, 22);
+            this.tpDetalle.Name = "tpDetalle";
+            this.tpDetalle.Padding = new System.Windows.Forms.Padding(3);
+            this.tpDetalle.Size = new System.Drawing.Size(756, 439);
+            this.tpDetalle.TabIndex = 1;
+            this.tpDetalle.Text = "Detalle";
+            this.tpDetalle.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -207,8 +208,8 @@
             this.panelHeader.PerformLayout();
             this.tcVehiculo.ResumeLayout(false);
             this.tpLista.ResumeLayout(false);
-            this.tpDetalle.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvVehiculo)).EndInit();
+            this.tpDetalle.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
